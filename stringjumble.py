@@ -33,3 +33,10 @@ t.reverse()
 st=(''.join(map(str,t)))
 print(st)
 
+m=text.split()
+m.reverse()
+k=(' '.join(map(str,m)))
+print(k)
+
+mm=(' '.join([word[::-1] for word in m]))
+print(mm)
