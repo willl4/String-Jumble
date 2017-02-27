@@ -38,5 +38,6 @@ m.reverse()
 k=(' '.join(map(str,m)))
 print(k)
 
-mm=(' '.join([word[::-1] for word in m]))
+s=text.split()
+mm=(' '.join([word[::-1] for word in s]))
 print(mm)
